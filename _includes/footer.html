@@ -1,0 +1,30 @@
+<footer class="footer">
+    <div class="container">
+
+        {% if site.footer_menu %}
+        <div class="columns is-multiline">
+            {% for item in site.data[site.footer_menu] %}
+            <div class="column has-text-centered">
+                <div>
+                    <a href="{{ item.link }}" class="link">
+                      {% if item.icon %}<i title="{{ item.name }}" class="fas fa-{{ item.icon }}"></i>{% endif %}
+                      <b>{{ item.name }}</b>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="content is-small has-text-centered">
+          <p class="">
+            <a href="{{ site.base_url }}/">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</a> | {{ site.description }} por {{ site.author }}
+          </p>
+          {% if site.admin_info %}
+            <p class="">
+              Administrado por: <a href="{{ site.admin_info.url }}" target="_blank">{{ site.admin_info.name }}</a> - <a href="mailto:{{ site.admin_info.email }}">{{ site.admin_info.email }}</a>
+            </p>
+          {% endif %}
+        </div>
+    </div>
+</footer>
