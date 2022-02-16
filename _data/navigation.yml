@@ -1,13 +1,13 @@
-- name: Produtos
-  link: /produtos/
-  dropdown:
-    - name: Cozinha
-      link: /produtos/cozinha/
-    - name: Decoração
-      link: /produtos/decoração/
-    - name: Infantil
-      link: /produtos/infantil/
-    - name: Máscaras
-      link: /produtos/mascaras/
+#- name: Produtos
+#  link: /produtos/
+#  dropdown:
+#    - name: Cozinha
+#      link: /produtos/cozinha/
+#    - name: Decoração
+#      link: /produtos/decoração/
+#    - name: Infantil
+#      link: /produtos/infantil/
+#    - name: Máscaras
+#      link: /produtos/mascaras/
 - name: Sobre Mim
   link: /sobre-mim/

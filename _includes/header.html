@@ -41,6 +41,7 @@
                       <span class="icon {{ item.icon }}">
                         <i {% if item.title %}title="{{ item.title }}"{% endif %} class="{{ item.fa }} fa-{{ item.icon }}"></i>
                       </span>
+                      <span>{% if item.fa == "fab" %} {{ item.title }}{% endif %}</span>
                     </a>
                   {% endfor %}
                 {% endif %}

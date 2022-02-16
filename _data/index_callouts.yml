@@ -1,0 +1,20 @@
+items:
+  - title: Martita.art
+    description: >
+      Este é um site de apresentação e divulgação dos meus trabalhos de patchwork.
+      Utilize o menu localizado na parte superior do site para navegar pelas diferentes
+      áreas ou acessar meus contatos e canais de redes sociais.
+    icon: fa-desktop
+  - title: Quem sou eu?
+    description: >
+      O meu nome é Marta F. A. Gomes. Use o botão abaixo para aprender sobre a
+      minha experiência com patchwork e como entrar em contato.
+    icon: fa-user-circle
+    call_to_action_name: Sobre Mim
+    call_to_action_link: /sobre-mim/
+#  - title: Trabalhos de Patchwork
+#    description: >
+#      Confira alguns dos meus principais trabalhos de patchwork na seção de Produtos do site.
+#    icon: fa-shopping-cart
+#    call_to_action_name: Produtos
+#    call_to_action_link: /produtos/
