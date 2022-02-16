@@ -1,0 +1,30 @@
+---
+layout: page
+title: "Sobre Mim"
+hide_hero: true
+show_sidebar: false
+---
+
+<div class="columns">
+    <div class="column is-4">
+        {% include image-modal.html ratio="is-16by9" link="/img/profile/profile-400x225.jpg" alt="Marta" large_link="/img/profile/profile-1200x675.jpg" %}
+    </div>
+    <div class="column is-8">
+        <p>
+          Olá! O meu nome é Marta F. de A. Gomes. Eu tenho uma forte atração pela <b>costura</b> desde a minha adolescência.
+          Em 1999, fiz o meu primeiro curso de <b>patchwork</b> e me encantei com os trabalhos nessa área.
+          Mais adiante, resolvi me aprofundar através do curso de <b>costura criativa</b>.
+          Desde então, sigo produzindo diversos trabalhos que dão vazão às minhas habilidades e criatividade.
+        </p>
+        {% if site.social %}
+        <p>
+          Para maiores informações, sinta-se livre para entrar em contato através dos seguintes meios:
+        </p>
+          {% for item in site.data.social.platform %}
+            {% unless item.icon == "rss" %}
+              <i class="{{ item.fa }} fa-{{ item.icon }}"></i> <a href="{{ item.link }}" target="_blank">{% if item.title %}{{ item.title }}{% else %}{{ item.icon }}{% endif %}</a><br>
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
+    </div>
+</div>

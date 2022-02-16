@@ -1,0 +1,83 @@
+# Site Settings
+lang: pt
+title: Martita.Art
+author: "Marta Gomes"
+#tagline: Martita
+email: martita@martita.art
+description: "Trabalhos de Patchwork"
+baseurl: ""
+url: "http://localhost:4000"
+google_analytics: G-8WZL3G9HBB
+permalink: pretty
+enhanced_favicon: true
+logo: "/img/logo.png"
+hide_share_buttons: true
+theme_color: "#F9C0C0"
+fixed_navbar: top
+social: true
+
+admin_info:
+  name: CGomesu
+  url: https://cgomesu.com
+  email: admin@martita.art
+
+#paginate: 5
+#paginate_path: "/blog/page:num"
+
+# Disqus Comments
+#disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+#  shortname:
+
+plugins:
+  - jekyll-sitemap
+#  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+
+exclude:
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Marta Gomes"
+      layout: post
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+# Uncomment and edit to include footer menu to the bottom of each page
+#footer_menu: example_footer_menu
+
+collections:
+  products:
+    output: true
+    layout: product
+    show_sidebar: false
