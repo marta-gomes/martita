@@ -7,7 +7,7 @@ email: martita@martita.art
 description: "Trabalhos de Patchwork"
 baseurl: ""
 url: "https://martita.art"
-google_analytics: G-8WZL3G9HBB
+google_analytics: UA-220776159-1
 permalink: pretty
 enhanced_favicon: true
 logo: "/img/logo.png"
@@ -23,13 +23,6 @@ admin_info:
 
 #paginate: 5
 #paginate_path: "/blog/page:num"
-
-# Disqus Comments
-#disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-#  shortname:
 
 plugins:
   - jekyll-sitemap
