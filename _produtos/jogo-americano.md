@@ -1,6 +1,6 @@
 ---
 title: Jogo Americano
-subtitle: Uso decorativo em mesas
+subtitle: Uso decorativo/praticidade
 hide_hero: true
 #product_code: ABC124
 layout: product
