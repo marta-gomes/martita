@@ -1,6 +1,6 @@
 ---
 title: Aventais Transparente
-subtitle: Para podólogas, esteticistas ou cuidadores
+subtitle: Para podólogas, esteticistas, cuidadores e afins
 hide_hero: true
 #product_code: ABC124
 layout: product
