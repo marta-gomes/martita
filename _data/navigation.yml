@@ -1,5 +1,5 @@
-#- name: Produtos
-#  link: /produtos/
+- name: Produtos
+  link: /produtos/
 #  dropdown:
 #    - name: Cozinha
 #      link: /produtos/cozinha/
