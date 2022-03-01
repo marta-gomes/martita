@@ -7,14 +7,13 @@ items:
     icon: fa-desktop
   - title: Quem sou eu?
     description: >
-      O meu nome é Marta F. A. Gomes. Use o botão abaixo para aprender sobre a
-      minha experiência com patchwork e como entrar em contato.
+      O meu nome é Marta F. A. Gomes. Aprenda mais sobre a minha experiência com patchwork na seção Sobre Mim do site.
     icon: fa-user-circle
     call_to_action_name: Sobre Mim
     call_to_action_link: /sobre-mim/
-#  - title: Trabalhos de Patchwork
-#    description: >
-#      Confira alguns dos meus principais trabalhos de patchwork na seção de Produtos do site.
-#    icon: fa-shopping-cart
-#    call_to_action_name: Produtos
-#    call_to_action_link: /produtos/
+  - title: Trabalhos de Patchwork
+    description: >
+      Confira alguns dos meus principais trabalhos de patchwork na seção de Produtos do site.
+    icon: fa-shopping-cart
+    call_to_action_name: Produtos
+    call_to_action_link: /produtos/
