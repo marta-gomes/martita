@@ -1,5 +1,5 @@
 platform:
-  - {icon: "whatsapp", fa: fab, link: "https://wa.me/5551992927625", title: "Whatsapp: 51 992927625"}
-  - {icon: "instagram", fa: fab, link: "https://www.instagram.com/martita.artes/", title: "Instagram: @martita.artes"}
-  - {icon: "envelope", fa: fas, link: "mailto:martita@martita.art", title: "E-mail: martita@martita.art"}
+  - {icon: "whatsapp", fa: fab, link: "https://wa.me/5551992927625", title: "51 992927625"}
+  - {icon: "instagram", fa: fab, link: "https://www.instagram.com/martita.artes/", title: "martita.artes"}
+  - {icon: "envelope", fa: fas, link: "mailto:martita@martita.art", title: "martita@martita.art"}
   - {icon: "rss", fa: fas, link: "https://martita.art/feed.xml", title: "Notícias RSS"}
